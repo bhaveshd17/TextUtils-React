@@ -25,12 +25,12 @@ function App() {
     if(mode === 'light'){
       setMode('dark')
       document.body.style.backgroundColor = '#0f1012'
-      showAlert('Dark mode enabled', 'success')
+      showAlert('Dark Mode enabled', 'success')
     }
     else{
       setMode('light')
       document.body.style.backgroundColor = '#efefef'
-      showAlert('Light mode enabled', 'success')
+      showAlert('Light Mode enabled', 'success')
     }
   }
 
